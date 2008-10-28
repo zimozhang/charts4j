@@ -1,6 +1,6 @@
 #summary Migration from gchartjava.
 
-This document only applies to developers who wish to migrate from gchartjava, the old name for this project.
+This document only applies to developers who wish to migrate from [http://gchartjava.googlecode.com gchartjava], the old name for this project.
 
 The charts4j API is significantly different from the gchartjava API. The good news is that it is greatly improved, more intuitive and bug free, but the bad news is that backwards compatibility is broken which means developers will have to refactor parts of their code to migrate. Here are several hints for upgrading from gchartjava:
   # You will obviously have to change the imports from com.googlecode.gchartjava to  com.googlecode.charts4j
