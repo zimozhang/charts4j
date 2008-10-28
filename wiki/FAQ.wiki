@@ -1,0 +1,64 @@
+#summary Frequently Asked Questions
+
+=Frequently Asked Questions=
+
+===What is charts4j?===
+
+charts4j is a chart library for Java that developers can use in their Java code to programmatically generate all the charts available in the [http://code.google.com/apis/chart/ Google Chart API] except QR codes. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/ Google Chart API] to create cool looking charts.
+
+===Why is charts4j useful for me?===
+
+charts4j allows you to *programmatically* generate charts from within your Java code via a simple, intuitive Java API. Moreover, it hides the ugly details of creating the URL parameters that are necessary for communicating with the Google Chart API.
+
+===Why do I need an Internet connection to use charts4j?===
+
+charts4j merely makes communicating with the Google Chart API from within your Java code much easier. Once you have defined your GChart Java object, you will call a method that will generate a URL that looks like something this
+
+http://chart.apis.google.com/chart?cht=lc&chs=200x125&chd=s:helloWorld&chxt=x,y&chxl=0:|Mar|Apr|May|June|July|1:||50+Kb
+
+Use the URL to retrieve your PNG image. Or embed the URL in an HTML image tag that can then be displayed in a web page. The best solution is to *programmatically* incorporate the URLs that are dynamically generated in your web or Internet application with the help of charts4j, and embed those URLs in your view technology (e.g. JSPs).
+
+===How do I get charts4j?===
+
+Grab the [http://code.google.com/p/charts4j/downloads/list latest zip] or [http://charts4j.googlecode.com/svn/trunk/ check out] the source via SVN.
+
+===How do I use charts4j in my Java programs?===
+
+Once you have downloaded and included the charts4j.jar in your classpath, you will have to start writing some code. The best way to learn the charts4j API is to follow some [DraftV06 example code] (see chart gallery) and to read the [http://charts4j.googlecode.com/svn/tags/v0.6RC5/doc/index.html javadocs].
+
+===Is charts4j free?===
+
+Yes.
+
+
+===Why does my data have to be between 0 and 100? What do I do about negative numbers, etc.?===
+
+This issue is at the heart of every computer graphics library. Users must supply the library data that is in an expected range so that it can be rendered. If your data falls outside the 0 to 100 range it must be *scaled* which is easy to do. See next item.
+
+===How do I scale my data?===
+
+See the DataUtil class documentation in the [http://charts4j.googlecode.com/svn/tags/v0.6RC5/doc/index.html javadocs].
+
+===What are the licensing terms?===
+
+charts4j is released under the [http://www.opensource.org/licenses/mit-license.php MIT License], the most relaxed, permissive open-source license I could find.
+
+===Do I need to give anybody credit if I use charts4j?===
+
+If you wish, as a courtesy you can link back to http://charts4j.googlecode.com/, but that is voluntary.
+
+===Are there any security guarantees?===
+
+None.
+
+Once you submit your URL, the data will be transmitted as clear text over the Internet. It is then trivial to intercept and decode your information contained within that URL.
+
+===What about long URLs and lots of data?===
+
+There is an interesting discussion on this topic [http://www.boutell.com/newfaq/misc/urllength.html here]. If you have large quantities of data (> 2000 points) you want displayed in one chart, you should try to sample your data less frequently. Otherwise, this technology may not be right for you.
+
+==Where can I find code examples?==
+
+[DraftV06 Chart gallery with examples]
+
+###
