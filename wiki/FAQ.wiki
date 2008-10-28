@@ -24,7 +24,7 @@ Grab the [http://code.google.com/p/charts4j/downloads/list latest zip] or [http:
 
 ===How do I use charts4j in my Java programs?===
 
-Once you have downloaded and included the charts4j.jar in your classpath, you will have to start writing some code. The best way to learn the charts4j API is to follow some [DraftV06 example code] (see chart gallery) and to read the [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/index.html javadocs].
+Once you have downloaded and included the charts4j.jar in your classpath, you will have to start writing some code. The best way to learn the charts4j API is to follow some [http://charts4j.googlecode.com example code] (see chart gallery) and to read the [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/index.html javadocs].
 
 ===Is charts4j free?===
 
