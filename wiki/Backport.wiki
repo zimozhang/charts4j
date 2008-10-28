@@ -1,0 +1,8 @@
+#summary Suggestions for pre Java 5 support
+
+If you are stuck in a pre-Java 5 world, you can backport charts4j with the help of one these tools:
+
+  * [http://retrotranslator.sourceforge.net/ Retrotranslator]
+  * [http://retroweaver.sourceforge.net/ Retroweaver]
+  * [http://tinyurl.com/r8xba Declawer]
+  * [http://wiki.jboss.org/wiki/Wiki.jsp?page=JBossRetro JBossRetro]
