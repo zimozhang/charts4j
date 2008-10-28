@@ -59,6 +59,6 @@ There is an interesting discussion on this topic [http://www.boutell.com/newfaq/
 
 ==Where can I find code examples?==
 
-[DraftV06 Chart gallery with examples]
+[http://charts4j.googlecode.com Chart gallery with examples]
 
 ###
