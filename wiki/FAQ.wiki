@@ -20,7 +20,7 @@ Use the URL to retrieve your PNG image. Or embed the URL in an HTML image tag th
 
 ===How do I get charts4j?===
 
-Grab the [http://code.google.com/p/charts4j/downloads/list latest zip] or [http://charts4j.googlecode.com/svn/trunk/ check out] the source via SVN.
+Grab the [http://code.google.com/p/charts4j/downloads/list latest zip] or [http://code.google.com/p/charts4j/source/checkout check out] the source via SVN.
 
 ===How do I use charts4j in my Java programs?===
 
