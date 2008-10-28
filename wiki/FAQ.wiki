@@ -4,7 +4,7 @@
 
 ===What is charts4j?===
 
-charts4j is a chart library for Java that developers can use in their Java code to programmatically generate all the charts available in the [http://code.google.com/apis/chart/ Google Chart API] except QR codes. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/ Google Chart API] to create cool looking charts.
+charts4j is a chart library for Java that developers can use in their Java code to programmatically generate nearly all the charts available in the [http://code.google.com/apis/chart/ Google Chart API]. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/ Google Chart API] to create cool looking charts.
 
 ===Why is charts4j useful for me?===
 
@@ -16,7 +16,7 @@ charts4j merely makes communicating with the Google Chart API from within your J
 
 http://chart.apis.google.com/chart?cht=lc&chs=200x125&chd=s:helloWorld&chxt=x,y&chxl=0:|Mar|Apr|May|June|July|1:||50+Kb
 
-Use the URL to retrieve your PNG image. Or embed the URL in an HTML image tag that can then be displayed in a web page. The best solution is to *programmatically* incorporate the URLs that are dynamically generated in your web or Internet application with the help of charts4j, and embed those URLs in your view technology (e.g. JSPs).
+Use the URL to retrieve your PNG image. Or embed the URL in an HTML image tag that can then be displayed in a web page. The best solution is to *programmatically* incorporate the URLs that are dynamically generated in your web or Internet application with the help of charts4j, and embed those URLs in your view technology (e.g. JSPs, Swing, etc.).
 
 ===How do I get charts4j?===
 
@@ -37,7 +37,7 @@ This issue is at the heart of every computer graphics library. Users must supply
 
 ===How do I scale my data?===
 
-See the DataUtil class documentation in the [http://charts4j.googlecode.com/svn/tags/v0.6RC5/doc/index.html javadocs].
+See the DataUtil class documentation in the [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/index.html javadocs].
 
 ===What are the licensing terms?===
 
