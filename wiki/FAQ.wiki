@@ -37,7 +37,7 @@ This issue is at the heart of every computer graphics library. Users must supply
 
 ===How do I scale my data?===
 
-See the DataUtil class documentation in the [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/index.html javadocs].
+See the [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/com/googlecode/charts4j/DataUtil.html DataUtil] class documentation in the [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/index.html javadocs].
 
 ===What are the licensing terms?===
 
