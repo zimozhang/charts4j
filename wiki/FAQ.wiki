@@ -4,7 +4,7 @@
 
 ===What is charts4j?===
 
-charts4j is a chart library for Java that developers can use in their Java code to programmatically generate nearly all the charts available in the [http://code.google.com/apis/chart/ Google Chart API]. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/ Google Chart API] to create cool looking charts.
+charts4j is a chart API for Java that developers can use in their Java code to programmatically generate nearly all the charts available in the [http://code.google.com/apis/chart/ Google Chart API]. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/ Google Chart API] to create cool looking charts.
 
 ===Why is charts4j useful for me?===
 
@@ -33,7 +33,7 @@ Yes.
 
 ===Why does my data have to be between 0 and 100? What do I do about negative numbers, etc.?===
 
-This issue is at the heart of every computer graphics library. Users must supply the library data that is in an expected range so that it can be rendered. If your data falls outside the 0 to 100 range it must be *scaled* which is easy to do. See next item.
+This issue is at the heart of every computer graphics API. Users must supply the API data that is in an expected range so that it can be rendered. If your data falls outside the 0 to 100 range it must be *scaled* which is easy to do. See next item.
 
 ===How do I scale my data?===
 
