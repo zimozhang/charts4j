@@ -12,7 +12,7 @@ charts4j allows you to *programmatically* generate charts from within your Java 
 
 ===Why do I need an Internet connection to use charts4j?===
 
-charts4j merely makes communicating with the Google Chart API from within your Java code much easier. Once you have defined your GChart Java object, you will call a method that will generate a URL that looks like something this
+charts4j merely makes communicating with the Google Chart API from within your Java code much easier. Once you have defined your GChart Java object, you will call [http://charts4j.googlecode.com/svn/tags/v1.0PreA/doc/com/googlecode/charts4j/GChart.html#toURLString() a method] that will generate a URL that looks like something this
 
 http://chart.apis.google.com/chart?cht=lc&chs=200x125&chd=s:helloWorld&chxt=x,y&chxl=0:|Mar|Apr|May|June|July|1:||50+Kb
 
