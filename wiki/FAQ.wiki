@@ -9,7 +9,7 @@ charts4j is a chart API for Java that developers can use in their Java code to p
 
 ===Why is charts4j useful for me?===
 
-charts4j allows you to *programmatically* generate charts from within your Java code via a simple, intuitive Java API. Moreover, it hides the ugly details of creating the URL parameters that are necessary for communicating with the Google Chart API.
+charts4j allows you to *programmatically* generate charts from within your Java code via a simple, intuitive, and *lightweight* Java API. Moreover, it hides the ugly details of creating the URL parameters that are necessary for communicating with the Google Chart API.
 
 ===Why do I need an Internet connection to use charts4j?===
 
