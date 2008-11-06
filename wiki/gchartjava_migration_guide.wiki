@@ -6,6 +6,6 @@ The charts4j API is significantly different from the gchartjava API. The good ne
   # You will obviously have to change the imports from com.googlecode.gchartjava to  com.googlecode.charts4j
   # There is now a strong reliance on static factory methods throughout this API. Refer to item 1 from "Effective Java" by Joshua Bloch, 2nd edition for a great discussion on static factory methods. See the [http://charts4j.googlecode.com/svn/tags/v1.0PreF/doc/com/googlecode/charts4j/Plots.html Plots] and [http://charts4j.googlecode.com/svn/tags/v1.0PreE/doc/com/googlecode/charts4j/GCharts.html GCharts] classes for examples of this concept.
   # Follow [http://code.google.com/p/charts4j/ examples].
-  # Read the [http://charts4j.googlecode.com/svn/tags/v1.0PreE/doc/index.html javadoc].
+  # Read the [http://charts4j.googlecode.com/svn/tags/v1.0PreF/doc/index.html javadoc].
 
 If you still have issues questions, please feel free to send me an email at julien.c.chastang at gmail dot com.
