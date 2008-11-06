@@ -4,7 +4,7 @@ This document only applies to developers who wish to migrate from [http://gchart
 
 The charts4j API is significantly different from the gchartjava API. The good news is that it is greatly improved, more intuitive and bug free, but the bad news is that backwards compatibility is broken which means developers will have to refactor parts of their code to migrate. Here are several hints for upgrading from gchartjava:
   # You will obviously have to change the imports from com.googlecode.gchartjava to  com.googlecode.charts4j
-  # There is now a strong reliance on static factory methods throughout this API. Refer to item 1 from "Effective Java" by Joshua Bloch, 2nd edition for a great discussion on static factory methods. See the [http://charts4j.googlecode.com/svn/tags/v1.0PreE/doc/com/googlecode/charts4j/Plots.html Plots] and [http://charts4j.googlecode.com/svn/tags/v1.0PreE/doc/com/googlecode/charts4j/GCharts.html GCharts] classes for examples of this concept.
+  # There is now a strong reliance on static factory methods throughout this API. Refer to item 1 from "Effective Java" by Joshua Bloch, 2nd edition for a great discussion on static factory methods. See the [http://charts4j.googlecode.com/svn/tags/v1.0PreF/doc/com/googlecode/charts4j/Plots.html Plots] and [http://charts4j.googlecode.com/svn/tags/v1.0PreE/doc/com/googlecode/charts4j/GCharts.html GCharts] classes for examples of this concept.
   # Follow [http://code.google.com/p/charts4j/ examples].
   # Read the [http://charts4j.googlecode.com/svn/tags/v1.0PreE/doc/index.html javadoc].
 
