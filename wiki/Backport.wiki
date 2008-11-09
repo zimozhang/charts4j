@@ -5,4 +5,4 @@ If you are stuck in a pre-Java 5 world, you can backport charts4j with the help 
   * [http://retrotranslator.sourceforge.net/ Retrotranslator]
   * [http://retroweaver.sourceforge.net/ Retroweaver]
   * [http://tinyurl.com/r8xba Declawer]
-  * [http://wiki.jboss.org/wiki/Wiki.jsp?page=JBossRetro JBossRetro]
+  * [http://www.jboss.org/community/docs/DOC-10738 JBossRetro]
