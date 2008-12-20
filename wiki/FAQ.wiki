@@ -15,7 +15,7 @@ charts4j and the Google Chart API is a wonderful, lightweight technology for qui
 
   # No Internet connection, no charts. Your application must be connected to the Internet because the charts are ultimately rendered by the Google Chart API.
   # There is no security with these charts. Your data will be sent as clear text over the Internet, and it would be trivial for someone to intercept this information.
-  # If you have lots of data, roughly speaking, more than 2000 data points, your application should try to sample your data less frequently, and use the simple encoding scheme. If this is not a possibility, this technology may not be right for you.
+  # If you have lots of data, roughly speaking, more than 2000 data points, your application should try to sample your data less frequently, and use the simple encoding scheme. Otherwise, this technology may not be right for you.
 
 
 ===Why is charts4j useful for me?===
