@@ -9,6 +9,15 @@ charts4j is a chart API for Java that developers can use in their Java code to p
 
 As of November 2008, the only chart types that are not supported are QR Codes, map pins, sticky notes, information bubbles, text with outline.
 
+===What reasons would make me not choose charts4j for my Java chart requirements?===
+
+charts4j and the Google Chart API is a lightweight technology for quickly generating quality charts, but there are a few deal breakers that should be disclaimed upfront:
+
+  # No Internet connection, no Google Charts. Your application must be connected to the Internet because the charts are ultimately rendered by the Google Chart API.
+  # There is no security with these charts. Your data will be sent as clear text over the Internet, and it would be trivial for someone to intercept this information.
+  # If you have lots of data, roughly speaking, more than 2000 data points, you should try to sample your data less frequently, and use the simple encoding scheme. If this is not a possibility, this technology may not be right for you.
+
+
 ===Why is charts4j useful for me?===
 
 charts4j allows you to *programmatically* generate charts from within your Java code via a simple, intuitive, and *lightweight* Java API. Moreover, it hides the ugly details of creating the URL parameters that are necessary for communicating with the Google Chart API.
