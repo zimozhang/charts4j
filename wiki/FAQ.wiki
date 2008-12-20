@@ -11,7 +11,7 @@ As of November 2008, the only chart types that are not supported are QR Codes, m
 
 ===What reasons would make me not choose charts4j for my Java charting requirements?===
 
-charts4j and the Google Chart API is a wonderful, lightweight technology for quickly generating quality charts. It solves the problem of making charts with a low footprint on your application very well. But there are a few _deal breakers_ that should be disclaimed upfront:
+charts4j and the Google Chart API is a wonderful, lightweight technology for quickly generating quality charts. It solves the problem of making nice charts while maintaining a low footprint on your application. But there are a few _deal breakers_ that should be disclaimed upfront:
 
   # No Internet connection, no Google Charts. Your application must be connected to the Internet because the charts are ultimately rendered by the Google Chart API.
   # There is no security with these charts. Your data will be sent as clear text over the Internet, and it would be trivial for someone to intercept this information.
