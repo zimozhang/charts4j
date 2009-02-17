@@ -15,7 +15,7 @@ We use chart4j in both SWING and to send to web applications too. Even when refr
 
 Thanks, Brad
 
-January 2009
+January, 2009
 
 Brad Zdanivsky
 http://code.google.com/p/zephyropen/
