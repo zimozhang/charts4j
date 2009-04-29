@@ -16,5 +16,5 @@ To user charts4j-gwt with your GWT project, simply complete the following steps:
   * Update your module definition to inherit charts4j-gwt:
 
 {{{
- <inherits name='com.googlecode.charts4j.Charts4j' />
+ <inherits name='com.googlecode.charts4j' />
 }}}
