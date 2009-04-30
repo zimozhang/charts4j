@@ -15,7 +15,7 @@ This port is compatible with GWT 1.5 and above.
 = Getting Started =
 
 To use charts4j-gwt with your GWT project, simply complete the following steps:
-  * [http://code.google.com/p/charts4j/downloads/list Download charts4j-gwt]
+  * [http://charts4j.googlecode.com/files/charts4j-gwt-1.1.jar Download charts4j-gwt]
   * Add the JAR to your project.
   * Update your module definition to inherit charts4j-gwt:
 
