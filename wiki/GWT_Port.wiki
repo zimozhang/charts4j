@@ -2,9 +2,11 @@
 
 = Introduction =
 
-charts4j-gwt is a GWT Port of charts4j, exposing all functionality that you know and love from charts4j to the GWT world.  With this, your applications can pull data from your server and dynamically manipulate then into any of our supported charts.
+charts4j-gwt is a port of the charts4j project that conforms to the GWT JRE subset. The API is identical to that of charts4j, but we made a few changes "under the hood" to achieve GWT JRE compliance. The port also contains GWT specific files such as the module XML definition.
 
-The API used in the port exactly mirrors that of the base product.  The only difference is the underlying code which has been modified to comply with GWT's JRE subset.  The port also contains necessary GWT-specific files, such as the module XML definition.
+With charts4j-gwt, data can be passed to browser and rendered in any of the supported Google Chart API charts leveraging the GWT.
+
+Note that in a GWT environment, charts4j has always worked server-side, in the servlet layer, but this port adds GWT client side support for charts4j.
 
 This port is compatible with GWT 1.5 and above.
 
