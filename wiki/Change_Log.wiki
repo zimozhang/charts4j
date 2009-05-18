@@ -27,7 +27,8 @@ Added scaling convenience methods.
 
 Added GWT client-side support.
 
-Added JfreeChart integration support.
+Now supporting configurability for other Google charts end point URLs (e.g.
+JFreeChart Eastwood Servlet)
 
 Improved javadoc
 
