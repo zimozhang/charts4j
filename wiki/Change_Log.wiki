@@ -2,3 +2,33 @@
 
 = New in version 1.2 =
 
+Fixed bug b/c incorrectly assumed that axis label numeric ranges had to run in the positive
+direction.
+
+Google-o-meter now supports title and legend options.
+
+Pie chart now supports legends.
+
+Support for chart margins and legend margins.
+
+Pie charts can now be oriented.
+
+Axis style now accommodates better control for tick marks, and whether the axis
+is displayed or not. Moreover, an axis text alignment bug in the Google Chart
+API has been hidden from the API user.
+
+Support for periodic shape and text markers in a given range.
+
+Added ability to add free text and shape markers not associated with a plot.
+ 	
+Fixed i18n bug
+
+Added scaling convenience methods.
+
+Added GWT client-side support.
+
+Added JfreeChart integration support.
+
+Improved javadoc
+
+Can now set label interval on the numeric range labels.
