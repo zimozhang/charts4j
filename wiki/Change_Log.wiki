@@ -1,0 +1,4 @@
+#summary charts4j change log
+
+= New in version 1.2 =
+
