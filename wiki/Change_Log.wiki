@@ -1,6 +1,6 @@
 #summary charts4j change log
 
-= New in version 1.2 =
+= New in version 1.2 [DRAFT]=
 
 Fixed bug b/c incorrectly assumed that axis label numeric ranges had to run in the positive
 direction.
