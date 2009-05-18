@@ -32,3 +32,7 @@ Added JfreeChart integration support.
 Improved javadoc
 
 Can now set label interval on the numeric range labels.
+
+Bars can now be individually colored in a bar chart.
+
+Optimized string building performance and eliminating the need for intermediate String objects.
