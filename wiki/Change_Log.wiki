@@ -1,4 +1,5 @@
 #summary charts4j change log
+#labels Featured
 
 = New in version 1.2=
 
