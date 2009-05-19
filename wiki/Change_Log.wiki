@@ -13,9 +13,7 @@ Support for chart margins and legend margins.
 
 Pie charts can now be oriented.
 
-Axis style now accommodates better control for tick marks, and whether the axis
-is displayed or not. Moreover, an axis text alignment bug in the Google Chart
-API has been hidden from the API user.
+Axis style now accommodates better control for tick marks. Moreover, an axis text alignment bug in the Google Chart API has been hidden from the API user.
 
 Support for periodic shape and text markers in a given range.
 
