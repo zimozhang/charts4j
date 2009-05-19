@@ -2,8 +2,12 @@
 
 = New in version 1.2 (DRAFT)=
 
-Fixed bug b/c incorrectly assumed that axis label numeric ranges had to run in the positive
-direction.
+Added GWT client-side support.
+
+Now supporting configurability for other Google charts end point URLs (e.g.
+JFreeChart Eastwood Servlet.)
+
+Fixed bug b/c incorrectly assumed that axis label numeric ranges had to run in the positive direction.
 
 Google-o-meter now supports title and legend options.
 
@@ -22,11 +26,6 @@ Added ability to add free text and shape markers not associated with a plot.
 Fixed i18n bug
 
 Added scaling convenience methods.
-
-Added GWT client-side support.
-
-Now supporting configurability for other Google charts end point URLs (e.g.
-JFreeChart Eastwood Servlet)
 
 Improved javadoc
 
