@@ -37,3 +37,8 @@ Can now set label interval on the numeric range labels.
 Bars can now be individually colored in a bar chart.
 
 Optimized string building performance and eliminating the need for intermediate String objects.
+
+Relaxed the pie chart API a bit. If slices do not add up to 100, slices will be
+proportional to the total of all slices.
+
+Enabling automatic resize bars to fit space.
