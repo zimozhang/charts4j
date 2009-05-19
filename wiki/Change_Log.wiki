@@ -18,7 +18,7 @@ Axis style now accommodates better control for tick marks. Moreover, an axis tex
 Support for periodic shape and text markers in a given range.
 
 Added ability to add free text and shape markers not associated with a plot.
- 	
+
 Fixed i18n bug
 
 Added scaling convenience methods.
