@@ -1,6 +1,6 @@
 #summary charts4j change log
 
-= New in version 1.2 (DRAFT)=
+= New in version 1.2=
 
 Added GWT client-side support.
 
