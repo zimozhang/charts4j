@@ -39,6 +39,6 @@ Optimized string building performance and eliminating the need for intermediate 
 Relaxed the pie chart API a bit. If slices do not add up to 100, slices will be
 proportional to the total of all slices.
 
-Enabling automatic resize bars to fit space.
+Enabling automatic resize of bar chart bars bars to fit space.
 
 Text markers can now be flagged.
