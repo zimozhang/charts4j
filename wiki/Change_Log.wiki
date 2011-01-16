@@ -1,7 +1,7 @@
 #summary charts4j change log
 #labels Featured
 
-= New in version 1.3 (forthcoming, not out yet)=
+= New in version 1.3=
 
 charts4j has been Mavenized
 
