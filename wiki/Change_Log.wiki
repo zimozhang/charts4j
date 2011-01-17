@@ -11,6 +11,8 @@ Fixed minor bug Venn Diagram API
 
 Fixed inconsistency with the way margins are set on charts
 
+Added additional legend position options available in the Google Charts API
+
 charts4j has migrated to Java 1.6
 
 = New in version 1.2=
