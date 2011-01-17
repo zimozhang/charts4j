@@ -7,7 +7,7 @@ charts4j has been Mavenized
 
 HTTP post support now available
 
-Fixed minor bug Venn Diagram API
+Fixed minor bug in Venn Diagram API
 
 Fixed inconsistency with the way margins are set on charts
 
