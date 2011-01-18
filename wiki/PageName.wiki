@@ -2,7 +2,7 @@
 
 = Introduction =
 
-[Work in progress]
+//Work in progress//
 
 Herein are the charts4j release instructions. 
 
