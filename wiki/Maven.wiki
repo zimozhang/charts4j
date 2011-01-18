@@ -2,7 +2,7 @@
 #labels Maven
 
                  
-For your project, you will then include this                                                                                                                                                                                         
+For your project include this                                                                                                                                                                                         
 XML snippet in your pom.xml.                                                                                                                                                                                                                
  
 {{{                                                                                                                                                                                                                                           
