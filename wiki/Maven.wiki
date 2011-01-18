@@ -1,20 +1,7 @@
 #summary Maven instructions.
 #labels Maven
 
-Soon charts4j will be on a public Maven repository.                                                                                                                                                                                         
-                                                                                                                                                                                                                                            
-In the meantime please                                                                                                                                                                                                                      
-
-{{{                                                                                                                                                                                                                                            
-svn checkout http://charts4j.googlecode.com/svn/trunk/ charts4j-read-only                                                                                                                                                                   
-                                                                                                                                                                                                                                            
-cd charts4j-read-only/                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                            
-mvn clean install                                                                                                                                                                                                                           
-}}}
-                                                                                                                                                                                                                                            
-These commands will put charts4j in your local Maven repository.                                                                                                                                                                                  
-                                                                                                                                                                                                                                            
+                 
 For your project, you will then include this                                                                                                                                                                                         
 XML snippet in your pom.xml.                                                                                                                                                                                                                
  
