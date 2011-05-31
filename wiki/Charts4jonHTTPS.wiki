@@ -1,0 +1,21 @@
+#summary Charts4j on HTTPS secured sites
+#labels https,ssl
+
+= Introduction =
+
+On an HTTPS secured site all resources should be accessed over HTTPS as well. 
+So when requesting a google charts image via HTTP the browser would show a warning message about mixed HTTPS and HTTP content.
+
+= Details =
+
+There is a simple solution to this:
+{{{
+AbstractGChart chart;
+...
+chart.setURLEndpoint("//chart.googleapis.com/chart");
+}}}
+
+This does 2 things:
+
+ * chart.apis.google.com, the default endpoint, does not currently support HTTPS, but chart.googleapis.com does.
+ * The [http://paulirish.com/2010/the-protocol-relative-url/ protocol-relative] address will let the browser automatically choose whether to use HTTP or HTTPS.
