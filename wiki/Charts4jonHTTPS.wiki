@@ -6,9 +6,8 @@
 On an HTTPS secured site all resources should be accessed over HTTPS as well. 
 So when requesting a google charts image via HTTP the browser would show a warning message about mixed HTTPS and HTTP content.
 
-= Details =
+= Solution =
 
-There is a simple solution to this:
 {{{
 AbstractGChart chart;
 ...
