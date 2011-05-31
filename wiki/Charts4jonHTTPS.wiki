@@ -15,7 +15,5 @@ AbstractGChart chart;
 chart.setURLEndpoint("//chart.googleapis.com/chart");
 }}}
 
-This does 2 things:
-
  * chart.apis.google.com, the default endpoint, does not currently support HTTPS, but chart.googleapis.com does.
  * The [http://paulirish.com/2010/the-protocol-relative-url/ protocol-relative] address will let the browser automatically choose whether to use HTTP or HTTPS.
