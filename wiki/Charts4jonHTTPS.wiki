@@ -1,5 +1,5 @@
 #summary Charts4j on HTTPS secured sites
-#labels https,ssl
+#labels https,ssl,Featured
 
 = Introduction =
 
