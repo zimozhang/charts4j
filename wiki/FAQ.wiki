@@ -7,15 +7,12 @@
 
 charts4j is a chart API for Java that developers can use in their Java code to programmatically generate nearly all the charts available in the [http://code.google.com/apis/chart/ Google Chart API]. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/ Google Chart API] to create cool looking charts.
 
-As of November 2008, the only chart types that are not supported are QR Codes, map pins, sticky notes, information bubbles, text with outline.
-
 ===What reasons would make me not choose charts4j for my Java charting requirements?===
 
 charts4j and the Google Chart API is a wonderful, lightweight technology for quickly generating quality charts while maintaining a low footprint on your application. But there are a few _deal breakers_ that should be disclaimed upfront:
 
   # No Internet connection, no charts. Your application must be connected to the Internet because the charts are ultimately rendered by the Google Chart API.
-  # There is no security with these charts. Your data will be sent as clear text over the Internet, and it would be trivial for someone to intercept this information.
-  # If you have lots of data, roughly speaking, more than 2000 data points, your application should try to sample data less frequently, and use the simple encoding scheme. Otherwise, this technology may not be right for you.
+  # If you have lots of data, roughly speaking, more than 2000 data points, your application should try to sample data less frequently, and use the simple encoding scheme. Otherwise, this technology may not be right for you. Alternatively, you can also try submitting a HTTP POST request.
 
 
 ===Why is charts4j useful for me?===
@@ -58,12 +55,6 @@ charts4j is released under the [http://www.opensource.org/licenses/mit-license.p
 ===Do I need to give anybody credit if I use charts4j?===
 
 If you wish, as a courtesy you can link back to http://charts4j.googlecode.com/.
-
-===Are there any security guarantees?===
-
-None.
-
-Once you submit your URL, the data will be transmitted as clear text over the Internet. It is then trivial to intercept and decode your information contained within that URL.
 
 ===What about long URLs and lots of data?===
 
