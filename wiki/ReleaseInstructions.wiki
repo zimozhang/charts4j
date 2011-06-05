@@ -6,7 +6,6 @@
 
 
 When ready to do a release
-
-# Run all tests, and verify that they pass.
-# Generate javadoc and commit to SVN
-# Maven release...
+ # Run all tests, and verify that they pass. 
+ # Generate javadoc and commit to SVN 
+ # Maven release...
