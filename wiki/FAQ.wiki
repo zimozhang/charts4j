@@ -5,7 +5,7 @@
 
 ===What is charts4j?===
 
-charts4j is a chart API for Java that developers can use in their Java code to programmatically generate nearly all the charts available in the [http://code.google.com/apis/chart/image/index.html Google Chart Tools]. Under the hood, charts4j leverages the [http://code.google.com/apis/chart/image/index.html Google Chart Tools] to create cool looking charts.
+charts4j is a chart API for Java that developers can use in their Java code to programmatically generate nearly all the charts available in [http://code.google.com/apis/chart/image/index.html Google Chart Tools]. Under the hood, charts4j leverages [http://code.google.com/apis/chart/image/index.html Google Chart Tools] to create cool looking charts.
 
 ===What reasons would make me not choose charts4j for my Java charting requirements?===
 
